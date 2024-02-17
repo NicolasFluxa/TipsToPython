@@ -1,3 +1,13 @@
+"""Se te proporcionan cuatro números enteros x, y, z y n.
+Estos números representan las dimensiones de una cuadrícula 3D (x, y, z) y un número entero n.
+Tu tarea es escribir una función en Python que genere todas las posibles coordenadas (i, j, k)
+ en la cuadrícula 3D donde la suma de las coordenadas no sea igual a n. Cada coordenada (i, j, k)
+  debe ser una lista de tres números enteros.
+La función debe imprimir todas las coordenadas válidas.
+ Las coordenadas deben generarse en orden ascendente y
+ la función debe utilizar comprensiones de listas en lugar de múltiples bucles."""
+
+
 # Definimos la función main que toma cuatro argumentos: x, y, z, n
 def main(x, y, z, n):
     # Inicializamos una lista vacía llamada lista2
@@ -16,6 +26,7 @@ def main(x, y, z, n):
                     lista2.append(lista)
     # Imprimimos lista2
     print(lista2)
+
 
 # Verificamos si este archivo se está ejecutando como el archivo principal
 if __name__ == '__main__':
